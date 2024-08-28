@@ -13,7 +13,7 @@ jobs:
       - name: Clone E2E Repository
         uses: actions/checkout@v4
         with:
-          repository: LeoCpii/fake-cyprecss
+          repository: LeoCpii/fake-cypress
           path: e2e-tests
 
       - name: Install NodeJS
